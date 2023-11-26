@@ -1,5 +1,10 @@
 # DevOps-Enhanced-Flask
 This repository contains an enhanced DevOps project showcasing a Flask web application with integrated AWS services, Terraform for infrastructure as code, and Jenkins for continuous integration and continuous deployment (CI/CD) pipelines.
+
+## Author
+
+For more details about the author and contact information, please refer to [Author.md](./Author.md).
+
 # My Enhanced DevOps Project
 
 This project is an enhanced version that demonstrates a Flask web application deployed using Docker, Jenkins, AWS, Terraform, and Kubernetes with Helm.
