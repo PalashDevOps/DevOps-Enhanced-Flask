@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps App</title>
+</head>
+<body>
+    <h1>Hello DevOps World!</h1>
+
+    <h2>S3 Files:</h2>
+    <ul>
+        {% for file in s3_files %}
+            <li>{{ file }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>RDS Data:</h2>
+    <ul>
+        {% for row in rds_data %}
+            <li>{{ row }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

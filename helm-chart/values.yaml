@@ -1,0 +1,18 @@
+replicaCount: 3
+
+image:
+  repository: registry.example.com/my-devops-app
+  tag: latest
+  pullPolicy: Always
+
+service:
+  name: my-devops-app
+  type: LoadBalancer
+  port: 80
+
+ingress:
+  enabled: false
+  annotations: {}
+  hosts:
+    - host: my-devops-app.example.com
+      paths: []

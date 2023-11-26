@@ -1,0 +1,28 @@
+DevOps-Enhanced-Flask/
+|-- app/
+|   |-- templates/
+|   |   |-- index.html
+|   |-- tests/
+|   |   |-- test_app.py
+|   |-- app.py
+|   |-- Dockerfile
+|   |-- requirements.txt
+|-- helm-chart/
+|   |-- charts/
+|   |-- templates/
+|   |   |-- deployment.yaml
+|   |   |-- service.yaml
+|   |-- values.yaml
+|-- terraform/
+|   |-- modules/
+|   |   |-- s3/
+|   |   |   |-- main.tf
+|   |   |   |-- outputs.tf
+|   |   |   |-- variables.tf
+|   |-- main.tf
+|   |-- outputs.tf
+|   |-- variables.tf
+|-- .gitignore
+|-- Jenkinsfile
+|-- README.md
+|-- LICENSE
